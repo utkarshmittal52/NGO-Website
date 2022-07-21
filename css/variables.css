@@ -1,0 +1,85 @@
+:root{
+    --primary-black: #272727;
+    --primary-orange: #f1bf62;
+    --secondry-orange:#fab04ff5;
+    --primary-color: #5b06bd;
+    --black: #000000;
+    --white: #ffffff;
+    --primary-grey: #707070;
+    --secondry-grey: #fafafa;
+    --whyus-red: #fd3b3b;
+    --client-testimonial-grey: #cecece;
+    --mainlanding-nav-bg: #363636;
+    --cloud-card-bg: #c3c3c3;
+
+    --careers-subheading: #7c7c7c;
+    --social-media-bg: #242424;
+    --social-media-bg-hover: #161616;
+    --footer-primary-bg: #1d1d1d;
+    --footer-secondry-bg: #161616;
+
+    --team-tabs: #b4b4b4;
+    --tech-black: #494949;
+    /* box shadows */
+    --services: 0 15px 50px rgba(179, 179, 179, 0.3);
+    --service-bg:  #fcfcfc;
+
+    /* products color */
+    --edukyte: #68b4f7;
+    --edukyte-secondry:#04bab4;
+    --edukyte-black: #181818;
+
+    --nrivesh-primary: #f1a500;
+    --nrivesh-blue: #2b3f51;
+    --nrivesh-red: #d2560c;
+
+    --quiklee-primary: #2a73a4;
+    --quiklee-black: #2f2f2f;
+
+    --dhad-primary: #4c2784;
+    --dhad-grey: #fcfcfc;
+    --dhad-text-grey: #525252;
+    --dhad-secondary: #8246fc;
+    --dhad-pink: #f52982;
+
+    --mnre-voilet: #f2f5fc;
+    --mnre-orange: #f75c1a;
+    --mnre-black: #2a2828; 
+    --mnre-blue:#0341be;
+    --mnre-secondary-blue: #2e5af8;
+    --mnre-card-bg: #ff9933;;
+    --mnre-key-point-1: #F7934C;
+    --mnre-key-point-2: #F05B86;
+    --mnre-key-point-3: #9ECD61;
+    --mnre-key-point-4: #44C8F5;
+    --mnre-progress: #FF844F;
+    --mnre-ctc-hover: #2748C3;
+    --mnre-portfolio-bg: #075ECC;
+
+    --ssl-primary:#ecf3ff;
+    --ssl-blue: #0f1f58;
+    --ssl-grey: #fefefe;
+    --ssl-card-bg: #f6f6f6;
+    --ssl-wireframe-bg: #f5f5f5;
+    --ssl-secondry: #2088ce;
+    --ssl-web-link-bg: #0d1a4b;
+    --ssl-web-link: #fdca4c;
+
+    --terra-grey-bg: #f5f7fa;
+
+    --swift-digital-primary: #3393e9;
+    --swift-digital-black: #404040;
+
+    --terra-primary: #00bfd0;
+    --terra-secondry: #40cbff;
+    --terra-grey: #909090;
+
+    --wallup-black: #333333;
+    --wallup-designs: #efede5;
+    --wallup-primary: #fcc709;
+    --wallup-yellow: #ca9e00;
+
+    --enterprise-grey: #dbdbdb;
+
+    --primary-transition: 0.5s cubic-bezier(.55,.4,.79,.67);
+}

@@ -1,0 +1,141 @@
+.p-heading {
+    padding-right: 90px;
+}
+
+.about-product {
+    font-size: 1.5rem;
+}
+
+.about-product p {
+    color: #2b3f51;
+    font-family: Montserrat Bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.product-mainlanding {
+    padding-bottom: 0;
+}
+
+.base {
+    width: 100%;
+    height: 500px;
+}
+
+.challenge-img {
+    width: 100%;
+    top: 1px;
+    left: 1px;
+}
+
+.challenge-img img {
+    position: relative;
+    width: 100%;
+    height: 75%;
+}
+
+.challenge-txt {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    color: azure;
+    font-size: 28px;
+}
+
+.content {
+    color: azure;
+}
+
+.ul-set {
+    margin-left: 170px;
+}
+
+.img-5 {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 800px;
+}
+
+.nrivesh-designs img {
+    height: 500px;
+}
+
+.middle-image {
+    top: 140px;
+    width: 100%;
+}
+
+.image-wrapper {
+    padding: 0!important;
+}
+
+.design-b {
+    margin-top: 100px;
+}
+
+.design-img {
+    margin-bottom: 10px;
+}
+
+.tutorial-1 {
+    padding: 0;
+    margin: 0;
+    width: 40%;
+}
+
+.tutorial-2 {
+    width: 60%;
+}
+
+.tutorial-3 {
+    padding: 0;
+    margin: 0;
+    width: 40%;
+}
+
+.step-5 {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.tutorial-img-container {
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.img-sizing {
+    width: 500px;
+}
+
+.wireframe img {
+    width: 100%;
+}
+
+@media screen and (max-width:1200px) {
+    .wireframe img {
+        width: 200px;
+        /* display: none; */
+    }
+}
+
+@media screen and (max-width:992px) {
+    .accurate-img {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .nrivesh-img-alt {
+        display: none;
+    }
+}
+
+@media (min-width:300px) and (max-width:991px) {
+    .nrivesh-img-alt {
+        display: visible;
+    }
+    .nirvesh-img-hide {
+        display: none;
+    }
+}

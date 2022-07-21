@@ -1,0 +1,149 @@
+.m-0{ margin: 0!important;}
+.mr-0{ margin-right: 0px!important;}
+.ml-0{ margin-left: 0px!important;}
+.mt-0{ margin-top: 0px!important;}
+.mb-0{ margin-bottom: 0px!important;}
+.mr-5{ margin-right: 5px!important;}
+.ml-5{ margin-left: 5px!important;}
+.mt-5{ margin-top: 5px!important;}
+.mb-5{ margin-bottom: 5px!important;}
+.mr-10{ margin-right: 10px!important;}
+.ml-10{ margin-left: 10px!important;}
+.mt-10{ margin-top: 10px!important;}
+.mb-10{ margin-bottom: 10px!important;}
+.mr-15{ margin-right: 15px!important;}
+.ml-15{ margin-left: 15px!important;}
+.mt-15{ margin-top: 15px!important;}
+.mb-15{ margin-bottom: 15px!important;}
+.mr-20{ margin-right: 20px!important;}
+.ml-20{ margin-left: 20px!important;}
+.mt-20{ margin-top: 20px!important;}
+.mb-20{ margin-bottom: 20px!important;}
+.mr-25{ margin-right: 25px!important;}
+.ml-25{ margin-left: 25px!important;}
+.mt-25{ margin-top: 25px!important;}
+.mb-25{ margin-bottom: 25px!important;}
+.mr-30{ margin-right: 30px!important;}
+.ml-30{ margin-left: 30px!important;}
+.mt-30{ margin-top: 30px!important;}
+.mb-30{ margin-bottom: 30px!important;}
+.mr-40{ margin-right: 40px!important;}
+.ml-40{ margin-left: 40px!important;}
+.mt-40{ margin-top: 40px!important;}
+.mb-40{ margin-bottom: 40px!important;}
+.mr-50{ margin-right: 50px!important;}
+.ml-50{ margin-left: 50px!important;}
+.mt-50{ margin-top: 50px!important;}
+.mb-50{ margin-bottom: 50px!important;}
+.p-0{ padding: 0px!important;}
+.pr-0{ padding-right: 0px!important;}
+.pl-0{ padding-left: 0px!important;}
+.pt-0{ padding-top: 0px!important;}
+.pb-0{ padding-bottom: 0px!important;}
+.pr-0{ padding-right: 0px!important;}
+.pl-6{ padding-left: 6px!important;}
+.pt-6{ padding-top: 6px!important;}
+.pb-6{ padding-bottom: 6px!important;}
+.pr-6{ padding-right: 6px!important;}
+.pl-5{ padding-left: 5px!important;}
+.pt-5{ padding-top: 5px!important;}
+.pb-5{ padding-bottom: 5px!important;}
+.pr-10{ padding-right: 10px!important;}
+.pl-10{ padding-left: 10px!important;}
+.pt-10{ padding-top: 10px!important;}
+.pb-10{ padding-bottom: 10px!important;}
+.pr-15{ padding-right: 15px!important;}
+.pl-15{ padding-left: 15px!important;}
+.pt-15{ padding-top: 15px!important;}
+.pb-15{ padding-bottom: 15px!important;}
+.pr-20{ padding-right: 20px!important;}
+.pl-20{ padding-left: 20px!important;}
+.pt-20{ padding-top: 20px!important;}
+.pb-20{ padding-bottom: 20px!important;}
+.pr-25{ padding-right: 25px!important;}
+.pl-25{ padding-left: 25px!important;}
+.pt-25{ padding-top: 25px!important;}
+.pb-25{ padding-bottom: 25px!important;}
+.pr-30{ padding-right: 30px!important;}
+.pl-30{ padding-left: 30px!important;}
+.pt-30{ padding-top: 30px!important;}
+.pb-30{ padding-bottom: 30px!important;}
+.pr-40{ padding-right: 40px!important;}
+.pl-40{ padding-left: 40px!important;}
+.pt-40{ padding-top: 40px!important;}
+.pb-40{ padding-bottom: 40px!important;}
+.pr-50{ padding-right: 50px!important;}
+.pl-50{ padding-left: 50px!important;}
+.pt-50{ padding-top: 50px!important;}
+.pb-50{ padding-bottom: 50px!important;}
+.pt-100{ padding-top: 100px;}
+.pb-100{ padding-bottom: 100px;}
+
+
+.margin-auto{
+    margin: auto!important;
+}
+.display-none{
+    display: none;
+}
+.equal-padding{
+    padding-left: 90px!important;
+    padding-right: 90px!important;
+}
+
+@media (max-width: 576px){
+    .equal-padding{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px){
+    .equal-padding{
+        padding-left: 60px!important;
+        padding-right: 60px!important;
+    }
+}
+.primary-black{
+    color: var(--primary-black);
+}
+.color-white{
+    color: var(--white);
+}
+
+/* success Modal */
+
+div#successModal .modal-content{
+    padding: 25px 15px;
+}
+div#successModal .modal-content h3{
+    font-family: Montserrat Bold;
+    font-size: 24px;
+}
+
+div#successModal .modal-content p{
+    font-family: OpenSans Regular;
+    font-size: 15px;
+}
+
+/* Animation class */
+
+.way-animate {
+    transform: translate(0, 50px);
+    opacity: 0;
+}
+
+
+.animate-right {
+    transform: translate(80px, 0);
+    opacity: 0;
+}
+
+.animate-left{
+    transform: translate(-80px, 0);
+    opacity: 0;
+}
+
+.way-animate-3{
+    transform: scale(0.1);
+}

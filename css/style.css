@@ -1,0 +1,447 @@
+.main-careers{
+    margin-top: 8rem;
+    padding: 4rem;
+}
+
+section h2{
+    font-size: 24px;
+    font-family: Montserrat ExtraBold;
+}
+
+
+.main-careers h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.main-careers p{
+    color: #7c7c7c;
+}
+
+.main-careers a{
+    font-size: 16px;
+}
+
+.btn{
+    color: azure;
+    background-color:#5b06bd;
+    padding: 10px 60px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+
+.btn:hover{
+    background-color:#493092;
+    color: azure;
+}
+
+.why-container {
+    width: 70%;
+    /* margin: 20px; */
+    padding:5%; 
+    position:sticky;
+    top:33%;
+    left:3%;
+    line-height: 2;    
+}
+
+.why-container h2{
+    margin-bottom:12px;
+}
+.why-container p{
+    color:#272727;
+}
+
+.key-card{
+    padding: 1.5rem;
+}
+
+.key-card h4{
+    font-family: Montserrat Bold;
+    font-size: 18px;
+}
+
+.key-card p{
+    margin-left: 7%;
+    margin-top: 3%;
+    line-height: 2;
+    font-family: OpenSans Regular;
+    color: #272717;
+}
+
+.moments{
+    text-align: center;
+    margin: 1%;
+    padding: 2%;
+}
+
+.moments h2{
+    margin-bottom: 2%;  
+    line-height: 1.2;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+
+.moments-tab{
+    font-family: Montserrat Bold ;
+    color:lightgray;
+}
+
+
+.active{
+    color:black;
+    text-decoration: underline;
+}
+
+.btn-mom{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.img-fluid{
+    margin: 1%;
+    padding: 2%;
+}
+
+
+.team-tabs{
+    cursor: pointer;
+}
+
+/* .description_heading{
+    color: #ff7c7c;
+} */
+
+
+.open-positions{
+      text-align: center;
+      line-height: 1.5;  
+}
+
+
+.open-positions h2{
+    font-size: 24px;
+    margin-bottom: 2%;  
+    font-weight: bold;
+}
+
+
+
+
+.hiring-text h3::before{
+    content: "";
+    position: absolute;
+    margin: 0;
+    left: 5%;
+    height: 70px;
+    width: 6px;
+    border-radius: .3rem;
+    background-image: linear-gradient(
+        180deg
+        , #5c3eb3 0%, #5c3eb3 100%);
+}
+
+.hiring-text h3{
+    font-family: Montserrat Bold;
+    font-size: 20px;
+    margin: 5%;
+    text-align: left;
+}
+
+
+.job{
+    margin: 2%;
+    padding: 2%;
+    text-align: left;
+    box-shadow:  0 12px 30px rgba(191, 191, 191, 0.16);
+    border-radius: 8px;
+   line-height: 2.2;
+}
+
+.job h4{
+    font-family: Montserrat Bold;
+    font-size: 20px;
+}
+
+.job p{
+    font-weight: 500;
+    color:#272727;
+}
+
+.ul-align{
+    margin: 0;
+    padding: 0;
+    line-height:2;
+    text-align: left;
+}
+
+.more-info li:before{
+    content: url(../images/Polygon\ 21.png);
+    margin-right: 3%;
+    
+}
+
+.more-info li{
+    display: flex;
+    margin: 15px 0;
+}
+
+.more-info1 li:before{
+    content:url(../images/Polygon\ 21.png);
+    margin-right: 3%;
+}
+
+.more-info1 li{
+    display: flex;
+    margin: 15px 0;
+}
+
+.more-info2 li:before{
+    content: url(../images/Polygon\ 21.png);
+    margin-right: 3%;
+}
+
+.more-info2 li{
+    display: flex;
+    margin: 15px 0;
+}
+
+.more-info3 li:before{
+    content: url(../images/Polygon\ 21.png);
+    margin-right: 3%;
+}
+
+.more-info3 li{
+    display: flex;
+    margin: 15px 0;
+}
+
+
+
+.more-info h3{
+    padding: 10px 0;
+    font-family:  Montserrat Bold;
+    font-size: 17px;
+    text-align: justify;
+    
+}
+
+.more-info1 h3{
+    padding: 10px 0;
+    font-family:  Montserrat Bold;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.more-info2 h3{
+    padding: 10px 0;
+    font-family:  Montserrat Bold;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.more-info3 h3{
+    padding: 10px 0;
+    font-family:  Montserrat Bold;
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+
+.address{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color:white;
+    background-image: url(../images/address-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.address img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.address-detials{
+    position: relative;
+    /* bottom: 10%; */
+    padding: 40px;
+    color:white;   
+}
+
+
+
+.country-detail::before{
+    content: url(../images/landmark_icon.png); 
+    margin-top: 2px;
+}
+
+
+.phone-icon::before{
+    content: url(../images/phone_icon.png);
+    margin-top: 2px;
+}
+
+.mail::before{
+    content: url(../images/email_icon.png);
+    margin-top: 2px;    
+}
+
+.contact-heading{
+    font-size: 18px;
+    font-family:Montserrat Bold ;
+    margin-bottom: 10px;
+}
+
+.country{
+    font-size: 18px;
+    font-family:Montserrat Bold ;
+    margin-bottom: 10px;
+}
+
+.country-text{
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.address-content{
+    padding-left:10px ;
+}
+
+.heading1{
+    font-size: 26px;
+    font-family: Montserrat Bold;
+}
+
+.heading1 p{
+    font-size: 14px;
+    font-family: OpenSans Regular;
+}
+
+.expand{
+    display: block;
+    margin: 35%;
+    color: black;
+}
+.expand:hover{
+    color: black;
+}
+
+.rtr{
+    transition: all .4s linear;
+}
+
+.down{
+    transform:rotate(45deg);
+}
+
+@media screen and (max-width:991px){
+    .moments-tab{
+        display: none;
+    }
+
+    /* .address-detials{
+        text-align: center;
+    } */
+
+    
+}
+
+@media screen and (max-width:990px){
+    .key-card h4{
+        font-size: 20px;
+    }
+
+    .moments-tab{
+        display: none;
+    }
+    
+    .job{
+        text-align: center;
+        margin-top: 30px;
+        
+    }
+
+    .more-info ,.more-info1, .more-info2{
+        text-align: left;
+    }
+   .expand{
+       margin-top:2% ;
+       margin-bottom: 5%;
+   } 
+}
+
+@media screen and (max-width:650px){
+    .address-detials{
+        left:5%;
+        font-size: 14px;
+    }
+
+    .heading1{
+        font-size: 20px;
+    }
+    .contact{
+        font-size: 14px;
+        margin: 0;
+    }
+    .country-text{
+        font-size: 14px;
+    }
+    /* .ul-align{
+        line-height:2.2;
+    } */
+
+    .btn{
+        margin-bottom: 35px;
+    }
+
+}
+
+ @media screen and (max-width:500px){
+    .main-careers{
+        text-align: left;
+    }
+    
+    .why-container{
+         width: 100%;
+         margin: 0;
+     }
+     .why-container p{
+         font-size: 14px;
+         line-height:1.8;
+     }
+
+     .why-container h2{
+         font-size: 24px;
+     }
+
+ }  
+
+
+ @media screen and (max-width:376px){
+    .btn{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+ }
+
+
+ #netherlands , #indian:hover{
+    cursor: pointer;
+ }
